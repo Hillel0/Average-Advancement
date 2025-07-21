@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Relative Average Calculator",
+  "version": "1.1",
+  "description": "Calculate a relative average from selected courses on Bar-Ilan's Inbar grades page.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://inbar.biu.ac.il/Live/StudentGradesList.aspx*"],
+      "js": [
+      "content/storage.js",
+      "content/average.js",
+      "content/ui.js",
+      "content/content.js"
+    ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "assets/icon.png"
+  }
+}
