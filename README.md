@@ -1,4 +1,4 @@
-# 📊 Relative Average Calculator – Bar-Ilan Inbar Extension
+# 📊 Relative Average Calculator - Bar-Ilan Inbar Extension
 
 A Chrome/Brave extension that helps Bar-Ilan University students easily track and calculate their **relative course average**, **credit progress**, and **degree requirements**, directly from the Inbar grades page.
 
@@ -26,11 +26,11 @@ A Chrome/Brave extension that helps Bar-Ilan University students easily track an
 - 🔍 **Chrome Extension API (Manifest v3)**
 - 🧩 **Plain JavaScript**
 - 📦 **Modular architecture** using:
-  - `content.js` – DOM injection & main logic
-  - `storage.js` – local storage wrapper
-  - `average.js` – weighted average calculations
-  - `curriculum.js` – degree credit requirements
-  - `ui.js` – modular UI component builder
+  - `content.js` - DOM injection & main logic
+  - `storage.js` - local storage wrapper
+  - `average.js` - weighted average calculations
+  - `curriculum.js` - degree credit requirements
+  - `ui.js` - modular UI component builder
 
 ---
 
@@ -41,18 +41,20 @@ A Chrome/Brave extension that helps Bar-Ilan University students easily track an
 3. Enable **Developer Mode**
 4. Click **Load Unpacked**
 5. Select the project folder
-6. Go to your Inbar grades page — the extension will activate automatically
+6. Go to your Inbar grades page - the extension will activate automatically
 
 ---
 
 ## 💡 What Problem Does It Solve?
 
 Bar-Ilan students currently have to manually track:
-- What courses they've completed
-- What requirements are still missing
-- What their weighted average is
+- Which courses they’ve completed
+- Which degree requirements are still missing
+- Their weighted average - often requiring manual exclusion of:
+  - Non-CS courses
+  - Failed grades that don't affect the final average
 
-💥 This extension automates that — saving time, reducing mistakes, and providing **instant visibility** over degree progress.
+💥 This extension automates the process - saving time, reducing mistakes, and providing **instant visibility** over degree progress.
 
 ---
 
